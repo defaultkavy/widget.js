@@ -14,5 +14,6 @@
     "widget"
   ],
   "author": "defaultkavy",
-  "license": "ISC"
+  "license": "ISC",
+  "private": false
 }
