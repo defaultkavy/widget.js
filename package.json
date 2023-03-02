@@ -1,5 +1,5 @@
 {
-  "name": "widget.js",
+  "name": "@defaultkavy/widget.js",
   "version": "1.0.0",
   "description": "A simple framework to create Web UI/UX.",
   "main": "build/index.js",
