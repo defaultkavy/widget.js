@@ -3,6 +3,7 @@ import { AssetManager } from './structures/AssetManager';
 export const Assets = new AssetManager();
 
 // exports class
+export * from './structures/App';
 export * from './structures/Asset';
 export * from './structures/AssetManager';
 export * from './structures/BaseData';
