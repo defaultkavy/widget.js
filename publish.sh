@@ -1,25 +1,32 @@
 #!/bin/bash
 set -e
 
-echo package Version: 
+colorText () {
+    echo -e "\e[36m$1\e[0m"
+}
+backgroundText () {
+    echo -e "\e[46m$1\e[0m"
+}
+
+echo package version: 
 read Version
 
 echo commit message:
 read Message
 
-echo apply changes
+echo colorText "apply changes"
 git add --all
 
-echo start commit
+echo colorText "start commit"
 git commit -m '$Message'
 
-echo update version to package.json
+echo colorText "update version to package.json"
 npm version $Version
 
-echo repository publish
+echo colorText "repository publish"
 git push
 
-echo npm package publish
+echo colorText "npm package publish"
 npm publish
 
-echo package published.
+echo backgroundText "package published."
