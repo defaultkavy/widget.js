@@ -3,3 +3,4 @@ export.js
 archive
 src
 *.tgz
+*.sh
