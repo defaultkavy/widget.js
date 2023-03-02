@@ -1,4 +1,4 @@
-import { ContainerWidget, ContainerWidgetOptions } from "widget.js";
+import { ContainerWidget, ContainerWidgetOptions } from "../widgets/ContainerWidget";
 
 export class App extends ContainerWidget {
     constructor(options?: ContainerWidgetOptions) {
