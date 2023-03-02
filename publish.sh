@@ -1,25 +1,25 @@
 #!/bin/bash
 set -e
 
-echo Package Version: 
+echo package Version: 
 read Version
-echo Update version to package.json
-npm version $Version
 
-echo Apply changes
+echo commit message:
+read Message
+
+echo apply changes
 git add --all
 
-echo Commit message:
-read Message
+echo start commit
 git commit -m '$Message'
 
-echo Apply tag to commit
-git tag v$Version
+echo update version to package.json
+npm version $Version
 
-echo Repository publish
+echo repository publish
 git push
 
-echo NPM package publish
+echo npm package publish
 npm publish
 
-echo Package published.
+echo package published.
