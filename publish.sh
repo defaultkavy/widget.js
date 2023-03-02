@@ -14,19 +14,19 @@ read Version
 echo commit message:
 read Message
 
-echo colorText "apply changes"
+colorText "apply changes"
 git add --all
 
-echo colorText "start commit"
+colorText "start commit"
 git commit -m '$Message'
 
-echo colorText "update version to package.json"
+colorText "update version to package.json"
 npm version $Version
 
-echo colorText "repository publish"
+colorText "repository publish"
 git push
 
-echo colorText "npm package publish"
+colorText "npm package publish"
 npm publish
 
-echo backgroundText "package published."
+backgroundText "package published."
