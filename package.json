@@ -1,5 +1,5 @@
 {
-  "name": "@defaultkavy/widget.js",
+  "name": "@defaultkavy/widget",
   "version": "1.0.0",
   "description": "A simple framework to create Web UI/UX.",
   "main": "build/index.js",
@@ -15,5 +15,13 @@
   ],
   "author": "defaultkavy",
   "license": "ISC",
-  "private": false
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/defaultkavy/widget.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/defaultkavy/widget.js/issues"
+  },
+  "homepage": "https://github.com/defaultkavy/widget.js#readme"
 }
