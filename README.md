@@ -12,7 +12,7 @@ import { App, ContaienrWidget, ImageWidget } from 'widget.js';
 const app = new App();
 document.body.append(app.node); // Append app element to document body
 
-const container = new ContaienrWidget({
+const container = new ContainerWidget({
     children: [
         new ImageWidget({
             src: 'https://defaultkavy.com/assets/images/A_man_dancing.gif',
