@@ -4,7 +4,6 @@
   "description": "A simple framework to create Web UI/UX.",
   "main": "build/index.js",
   "scripts": {
-    "publish": "npm publish",
     "build": "tsc"
   },
   "types": "types/index.d.ts",
