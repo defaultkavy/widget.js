@@ -1,6 +1,6 @@
 {
   "name": "@defaultkavy/widget.js",
-  "version": "1.0.5-fix.3",
+  "version": "1.0.6",
   "description": "A simple framework to create Web UI/UX.",
   "main": "build/index.js",
   "scripts": {
