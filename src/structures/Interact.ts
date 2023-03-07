@@ -2,7 +2,7 @@ import { Widget } from "../widgets/Widget";
 import { SwipeDirection, TouchObject } from "./TouchObject";
 
 export class Interact<T extends Widget> {
-    private widget: T;
+    widget: T;
     private node: HTMLElement;
     touches: Map<number, TouchObject> = new Map;
     touchstart = false;

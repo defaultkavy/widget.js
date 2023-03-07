@@ -25,6 +25,9 @@ export class Widget extends NodeElement {
             if (options.styles) {
                 this.addStyles(options.styles);
             }
+            if (options.preload) {
+                options.preload(this);
+            }
         }
     }
 
@@ -117,6 +120,7 @@ export interface WidgetOptions {
     id?: string;
     listeners?: InteractOptions;
     styles?: string[] | string;
+    preload?: (widget: Widget) => void;
 }
 
 export interface WidgetBuilderOptions<T extends WidgetOptions> {
