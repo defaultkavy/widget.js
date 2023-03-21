@@ -19,6 +19,7 @@ export abstract class BaseLayoutManager<L extends LayoutWidget> extends BaseWidg
         if (prev_layout && prev_layout !== this.current) {
             prev_layout.close();
         }
+        return layout;
     }
 
     close() {

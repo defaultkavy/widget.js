@@ -9,7 +9,7 @@ export * from './structures/AssetManager';
 export * from './structures/BaseData';
 export * from './structures/BaseDataManager';
 export * from './structures/BaseLayoutManager';
-export * from './structures/BaseRoute';
+export * from './structures/BaseRouter';
 export * from './structures/BaseWidgetManager';
 export * from './structures/Interact';
 export * from './structures/NodeElement';
