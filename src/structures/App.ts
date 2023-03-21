@@ -2,6 +2,6 @@ import { ContainerWidget, ContainerWidgetOptions } from "../widgets/ContainerWid
 
 export class App extends ContainerWidget {
     constructor(options?: ContainerWidgetOptions) {
-        super(options);
+        super(options, 'app');
     }
 }

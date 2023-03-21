@@ -1,4 +1,4 @@
-export abstract class BaseRoute {
+export abstract class BaseRouter {
     entryPath = window.location.pathname;
     index = 0;
     constructor() {
@@ -39,8 +39,6 @@ export abstract class BaseRoute {
     }
 
     abstract onchange(nav_dir: NavigationDirection): any;
-
-    abstract get(path: string): any;
 }
 
 export type NavigationDirection = 'BACK' | 'FORWARD' | 'ENTRY';
