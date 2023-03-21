@@ -16,7 +16,6 @@ export * from './structures/NodeElement';
 export * from './structures/TouchObject';
 export * from './widgets/AnimatedWidget';
 export * from './widgets/ContainerWidget';
-export * from './widgets/IconButtonWidget';
 export * from './widgets/ImageWidget';
 export * from './widgets/LayoutWidget';
 export * from './widgets/ListWidget';

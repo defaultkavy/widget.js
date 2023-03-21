@@ -4,3 +4,4 @@ archive
 src
 *.tgz
 *.sh
+tsconfig.json
