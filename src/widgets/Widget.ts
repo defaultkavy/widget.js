@@ -119,7 +119,7 @@ export interface WidgetOptions {
     interaction?: boolean;
     id?: string;
     listeners?: InteractOptions;
-    styles?: string[] | string;
+    styles?: Style
     preload?: (widget: Widget) => void;
 }
 
@@ -133,3 +133,5 @@ export interface WidgetBuilderOptions<T extends WidgetOptions> {
     with_array?: T[];
     size: number;
 }
+
+export type Style = string[] | string;

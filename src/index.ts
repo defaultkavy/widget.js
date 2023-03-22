@@ -20,6 +20,5 @@ export * from './widgets/ImageWidget';
 export * from './widgets/LayoutWidget';
 export * from './widgets/ListWidget';
 export * from './widgets/SlideshowWidget';
-export * from './widgets/TextButtonWidget';
 export * from './widgets/TextWidget';
 export * from './widgets/Widget';
