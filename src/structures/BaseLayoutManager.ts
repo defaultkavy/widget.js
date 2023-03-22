@@ -11,7 +11,7 @@ export abstract class BaseLayoutManager<L extends LayoutWidget> extends BaseWidg
     async open(layoutResolver: string, nav_dir?: NavigationDirection) {
         const prev_layout = this.current;
         const layout = this.cache.get(layoutResolver);
-        if (layout === this.current) return;
+        if (layout === this.current) return this.current;
         if (!layout) throw 'Layout id no match';
         this.current = layout;
         this.append(this.current); // append before init
