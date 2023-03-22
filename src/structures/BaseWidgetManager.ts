@@ -9,6 +9,7 @@ export abstract class BaseWidgetManager<T extends IdNodeElement> extends Widget 
 
     add(item: T) {
         this.cache.set(item.id, item);
+        return item;
     }
 }
 
